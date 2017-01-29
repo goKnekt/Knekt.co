@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:700');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('./photo.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+button:focus {
+  outline: none;
+}
+button {
+  border: solid;
+  margin-top: 22px;
+  height: 40px;
+  width: 200px;
+  border-radius: 25px;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: white;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 1.25em;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  font-size: 4.3em;
+}
+
+h3 {
+  margin: 0;
+  color: white;
+  font-size: 2.3em;
+}
+
