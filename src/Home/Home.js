@@ -14,12 +14,15 @@ class Home extends Component {
                     <h3>Home. Connected. Brilliant.</h3>
                     <button onClick={this.handleClick} className="github">Github</button>
                 </div>
+                <div className="footer">
+                    <h5>Made with <i className="fa fa-heart"></i> In the UK by <a className="me" target="_blank" href="https://github.com/AlexCatch">@AlexCatch</a></h5>
+                </div>
             </div>
         );
     }
 
     handleClick() {
-        window.open("https://github.com/AlexCatch/Knekt");
+        window.open("https://github.com/goKnekt");
     }
 
 }

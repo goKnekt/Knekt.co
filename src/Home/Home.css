@@ -16,4 +16,22 @@
   transform: translateY(-50%);
 }
 
+.footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:50px;
+  width:100%;
+}
+
+.me {
+  color: white;
+  text-decoration: none;
+}      /* unvisited link */
+.me:visited {color: white}  /* visited link */
+.me:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 
